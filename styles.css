@@ -135,22 +135,33 @@ h1 span {
   padding: 60px 0;
 }
 
-.project-image {
-  width: 660px;
-}
-
-.button {
-  width: 100px;
+.projects-button {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  width: 150px;
   height: 40px;
   color: white;
-  background-color: #517291;
+  background-color: #063562;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition-duration: 50ms;
+}
+
+.projects-button img {
+  padding-left: 7px;
 }
 
 .project-box-1 {
   display: flex;
 }
 
-.project-box-1 img {
+.project-image-1 {
+  width: 660px;
   margin-right: 80px;
 }
 
@@ -163,7 +174,8 @@ h1 span {
   flex-direction: row-reverse;
 }
 
-.project-box-2 img {
+.project-image-2 {
+  width: 660px;
   margin-left: 80px;
 }
 
@@ -175,7 +187,8 @@ h1 span {
   display: flex;
 }
 
-.project-box-3 img {
+.project-image-3 {
+  width: 660px;
   margin-right: 80px;
 }
 
