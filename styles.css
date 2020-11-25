@@ -7,11 +7,11 @@
 body {
   width: 75%;
   margin: 0 auto;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-menu {
   width: 100%;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   letter-spacing: 6.3px;
   margin: 60px 0;
@@ -37,10 +37,6 @@ body {
   margin: 0 64px;
 }
 
-/* .nav-menu li {
-  margin: 0 32px;
-} */
-
 .nav-menu a {
   text-decoration: none;
 }
@@ -58,10 +54,11 @@ body {
 
 header {
   position: relative;
+  height: 672px;
+  margin-bottom: 170px;
 }
 
 header p {
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #6d6d6d;
   width: 608px;
@@ -75,7 +72,6 @@ header p {
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 100px;
   color: #999999;
@@ -94,13 +90,12 @@ h1 span {
   color: white;
   height: 115px;
   width: 350px;
-  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 24px;
   letter-spacing: 8.3px;
   position: absolute;
   left: 0;
-  top: 135%;
+  top: 91%;
   text-decoration: none;
 }
 
@@ -110,7 +105,7 @@ h1 span {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  top: 120%;
+  top: 77%;
   right: 0;
 }
 
@@ -127,4 +122,77 @@ h1 span {
 .social-linkedin {
   width: 57.9px;
   height: 57.76px;
+}
+
+.projects h2 {
+  font-size: 80px;
+  font-weight: 700;
+  color: #063562;
+  margin: 50px 0;
+}
+
+.projects article {
+  padding: 60px 0;
+}
+
+.project-image {
+  width: 660px;
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #517291;
+}
+
+.project-box-1 {
+  display: flex;
+}
+
+.project-box-1 img {
+  margin-right: 80px;
+}
+
+.project-box-1 p {
+  padding: 30px 40px 0px 0px;
+}
+
+.project-box-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.project-box-2 img {
+  margin-left: 80px;
+}
+
+.project-box-2 p {
+  padding: 30px 50px 0px 0px;
+}
+
+.project-box-3 {
+  display: flex;
+}
+
+.project-box-3 img {
+  margin-right: 80px;
+}
+
+.project-box-3 p {
+  padding: 30px 50px 0px 0px;
+}
+
+.projects h3 {
+  font-weight: 700;
+  font-size: 60px;
+  color: #063562;
+  opacity: 70%;
+}
+
+.projects p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #6d6d6d;
+  letter-spacing: 0.4px;
 }
