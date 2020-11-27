@@ -97,6 +97,7 @@ h1 span {
   left: 0;
   top: 91%;
   text-decoration: none;
+  border-radius: 10px;
 }
 
 .social-networks {
@@ -124,10 +125,13 @@ h1 span {
   height: 57.76px;
 }
 
-.projects h2 {
+h2 {
   font-size: 80px;
   font-weight: 700;
   color: #063562;
+}
+
+.projects h2 {
   margin: 50px 0;
 }
 
@@ -150,6 +154,7 @@ h1 span {
   outline: none;
   border: none;
   transition-duration: 50ms;
+  border-radius: 5px;
 }
 
 .projects-button img {
@@ -203,9 +208,13 @@ h1 span {
   opacity: 70%;
 }
 
-.projects p {
+p {
   font-weight: 400;
   font-size: 18px;
   color: #6d6d6d;
   letter-spacing: 0.4px;
+}
+
+.about-me {
+  margin-top: 50px;
 }
